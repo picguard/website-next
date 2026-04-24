@@ -99,12 +99,12 @@
                 {{ t("footer.terms") }}
               </NuxtLink>
             </li>
-            <li>
-              <NuxtLink :to="localePath('/imprint')"
-                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
-                {{ t("footer.imprint") }}
-              </NuxtLink>
-            </li>
+<!--            <li>-->
+<!--              <NuxtLink :to="localePath('/imprint')"-->
+<!--                class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">-->
+<!--                {{ t("footer.imprint") }}-->
+<!--              </NuxtLink>-->
+<!--            </li>-->
             <li>
               <NuxtLink :to="localePath('/contact')"
                 class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors capitalize">
