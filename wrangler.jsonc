@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "my-nuxt-app",
+	"name": "picguard-website-next",
 	"main": "./.output/server/index.mjs",
 	"compatibility_date": "2026-04-24",
 	"assets": {
@@ -14,7 +14,7 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true,
+	"upload_source_maps": false,
 	"compatibility_flags": [
 		"nodejs_compat"
 	]
