@@ -1,4 +1,4 @@
-# LocalSend Website
+# Website
 
 ## Setup
 

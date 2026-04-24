@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend：与附近设备共享文件",
-      "description": "LocalSend 是一款免费、开源、跨平台的工具，可让您与附近设备共享文件。"
+      "title": "PicGuard：与附近设备共享文件",
+      "description": "PicGuard 是一款免费、开源、跨平台的工具，可让您与附近设备共享文件。"
     },
     "hero": {
       "badge": "支持所有主流平台！",
@@ -23,14 +23,14 @@
     },
     "testimonials": {
       "title": "深受社区喜爱",
-      "description": "加入每天使用 LocalSend 进行文件传输的数千名用户。"
+      "description": "加入每天使用 PicGuard 进行文件传输的数千名用户。"
     },
     "sponsors": {
       "title": "赞助商",
-      "description": "LocalSend 之所以免费开源，全靠我们的合作伙伴与社区支持。",
+      "description": "PicGuard 之所以免费开源，全靠我们的合作伙伴与社区支持。",
       "infrastructure": "基础设施合作伙伴",
       "becomeSponsor": "成为赞助商",
-      "becomeSponsorDescription": "喜欢 LocalSend？支持我们的开发，让项目持续成长。"
+      "becomeSponsorDescription": "喜欢 PicGuard？支持我们的开发，让项目持续成长。"
     },
     "features": {
       "title": "功能特性",
@@ -38,9 +38,9 @@
       "decentralized": "去中心化",
       "decentralizedDescription": "无需中央服务器。传输完全基于点对点（P2P）。",
       "crossPlatform": "跨平台",
-      "crossPlatformDescription": "LocalSend 可用于 Windows、macOS、Linux、Android 和 iOS。",
+      "crossPlatformDescription": "PicGuard 可用于 Windows、macOS、Linux、Android 和 iOS。",
       "free": "免费",
-      "freeDescription": "LocalSend 完全免费 —— 无广告、无跟踪、无隐藏费用。",
+      "freeDescription": "PicGuard 完全免费 —— 无广告、无跟踪、无隐藏费用。",
       "openSource": "开源",
       "openSourceDescription": "源代码公开，任何人都可贡献。",
       "secure": "安全",
@@ -54,16 +54,16 @@
     },
     "press": {
       "title": "媒体报道",
-      "description": "看看科技媒体如何评价 LocalSend。",
+      "description": "看看科技媒体如何评价 PicGuard。",
       "readArticle": "阅读文章"
     },
     "faq": {
       "title": "常见问题",
-      "description": "关于 LocalSend 的所有常见疑问。",
+      "description": "关于 PicGuard 的所有常见疑问。",
       "q1": "真的免费吗？",
-      "a1": "是的！LocalSend 100% 免费且开源。无广告、无跟踪、无隐藏费用。",
+      "a1": "是的！PicGuard 100% 免费且开源。无广告、无跟踪、无隐藏费用。",
       "q2": "它能通过互联网工作吗？",
-      "a2": "不能。LocalSend 使用您的本地 WiFi 网络，数据不会离开您的局域网。",
+      "a2": "不能。PicGuard 使用您的本地 WiFi 网络，数据不会离开您的局域网。",
       "q3": "安全性如何？",
       "a3": "非常安全。所有传输均使用 HTTPS 加密，并支持 PIN 验证。",
       "q4": "文件保存在哪里？",
@@ -74,18 +74,18 @@
       "a6": "不需要。无需注册或登录 —— 安装即可使用。"
     },
     "mentioned": "全球媒体推荐",
-    "get": "获取 LocalSend",
-    "video": "观看 YouTube 上的 LocalSend 介绍视频"
+    "get": "获取 PicGuard",
+    "video": "观看 YouTube 上的 PicGuard 介绍视频"
   },
   "cta": {
     "title": "准备好开始了吗？",
-    "description": "下载 LocalSend，在设备之间轻松共享文件。",
+    "description": "下载 PicGuard，在设备之间轻松共享文件。",
     "download": "下载"
   },
   "download": {
     "seo": {
-      "title": "LocalSend – 下载",
-      "description": "下载适用于 Windows、macOS、Linux、Android 和 iOS 的 LocalSend。"
+      "title": "PicGuard – 下载",
+      "description": "下载适用于 Windows、macOS、Linux、Android 和 iOS 的 PicGuard。"
     },
     "title": "下载",
     "subTitle": "{os} 下载",
@@ -106,8 +106,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend – 社区",
-      "description": "获取帮助、参与讨论并为 LocalSend 做贡献。"
+      "title": "PicGuard – 社区",
+      "description": "获取帮助、参与讨论并为 PicGuard 做贡献。"
     },
     "title": "社区",
     "getHelp": "获取帮助",
@@ -123,12 +123,12 @@
     "pullRequests": "Pull Request",
     "prDescription": "想贡献代码？创建一个 PR 吧。",
     "contribute": "贡献",
-    "contributeDescription": "帮助我们改进 LocalSend。",
+    "contributeDescription": "帮助我们改进 PicGuard。",
     "languageSpecific": "加入特定语言的讨论。"
   },
   "contact": {
     "seo": {
-      "title": "联系 – LocalSend",
+      "title": "联系 – PicGuard",
       "description": "联系团队或社区。"
     },
     "title": "联系我们",
@@ -172,7 +172,7 @@
     "title": "工作原理",
     "description": "无需配置。安装即可开始共享。",
     "step1Title": "安装并打开",
-    "step1Desc": "在您的所有设备上安装 LocalSend。无需账户、登录或服务器。",
+    "step1Desc": "在您的所有设备上安装 PicGuard。无需账户、登录或服务器。",
     "step2Title": "选择文件",
     "step2Desc": "选择照片、视频、文档或文本 —— 支持所有文件类型。",
     "step3Title": "点击发送",

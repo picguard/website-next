@@ -56,25 +56,25 @@ interface MentionedArticle {
 
 const mentionedArticles: MentionedArticle[] = [
     {
-        title: "LocalSend: An Open-Source AirDrop Alternative For Everyone!",
+        title: "PicGuard: An Open-Source AirDrop Alternative For Everyone!",
         description: "It's FOSS",
         language: "twemoji:flag-united-states",
-        url: "https://news.itsfoss.com/localsend/",
+        url: "https://news.itsfoss.com/picguard/",
         bgClass: "bg-blue-50/50 dark:bg-blue-950/20",
     },
     {
-        title: "Mit Localsend lassen sich Dateien schnell im WLAN teilen",
+        title: "Mit PicGuard lassen sich Dateien schnell im WLAN teilen",
         description: "DataCenter-Insider",
         language: "twemoji:flag-germany",
-        url: "https://www.datacenter-insider.de/mit-localsend-lassen-sich-dateien-schnell-im-wlan-teilen-a-a3b134cc1f9960fbfced8c556ed239b8/",
+        url: "https://www.datacenter-insider.de/mit-picguard-lassen-sich-dateien-schnell-im-wlan-teilen-a-a3b134cc1f9960fbfced8c556ed239b8/",
         bgClass: "bg-yellow-50/50 dark:bg-yellow-950/20",
     },
     {
         title:
-            "LocalSend – 无联网,开源跨平台的局域网文件互传工具[2023年的第一个精选]",
+            "PicGuard – 无联网,开源跨平台的局域网文件互传工具[2023年的第一个精选]",
         description: "APPINN",
         language: "twemoji:flag-china",
-        url: "https://www.appinn.com/localsend/",
+        url: "https://www.appinn.com/picguard/",
         bgClass: "bg-red-50/50 dark:bg-red-950/20",
     },
     {
@@ -87,29 +87,29 @@ const mentionedArticles: MentionedArticle[] = [
     },
     {
         title:
-            "クロスプラットフォームに対応したファイル共有ソフト！「LocalSend」。",
+            "クロスプラットフォームに対応したファイル共有ソフト！「PicGuard」。",
         description: "gigafree.net",
         language: "twemoji:flag-japan",
-        url: "https://www.gigafree.net/internet/share/LocalSend.html",
+        url: "https://www.gigafree.net/internet/share/PicGuard.html",
         bgClass: "bg-red-50/50 dark:bg-red-950/20",
     },
     {
-        title: "LocalSend: Transfiere archivos del móvil al ordenador, y viceversa",
+        title: "PicGuard: Transfiere archivos del móvil al ordenador, y viceversa",
         description: "Neoteo",
         language: "twemoji:flag-spain",
-        url: "https://www.neoteo.com/localsend-transfiere-archivos-del-movil-al-ordenador-y-viceversa/",
+        url: "https://www.neoteo.com/picguard-transfiere-archivos-del-movil-al-ordenador-y-viceversa/",
         bgClass: "bg-yellow-50/50 dark:bg-yellow-950/20",
     },
     {
         title:
-            "LocalSend — бесплатная программа для обмена файлами и текстом через WiFi",
+            "PicGuard — бесплатная программа для обмена файлами и текстом через WiFi",
         description: "alexandertokarev.ru",
         language: "twemoji:flag-russia",
-        url: "https://alexandertokarev.ru/all/localsend-besplatnaya-programma-dlya-obmena-faylami-cherez-wifi/",
+        url: "https://alexandertokarev.ru/all/picguard-besplatnaya-programma-dlya-obmena-faylami-cherez-wifi/",
         bgClass: "bg-blue-50/50 dark:bg-blue-950/20",
     },
     {
-        title: "대용량 파일 전송 끝판왕 크로스플랫폼 LocalSend",
+        title: "대용량 파일 전송 끝판왕 크로스플랫폼 PicGuard",
         description: "naver.com",
         language: "twemoji:flag-south-korea",
         url: "https://m.blog.naver.com/vavaras/223352646162",
@@ -117,10 +117,10 @@ const mentionedArticles: MentionedArticle[] = [
     },
     {
         title:
-            "Invia file in modo sicuro sulla rete locale con l'app LocalSend multipiattaforma",
+            "Invia file in modo sicuro sulla rete locale con l'app PicGuard multipiattaforma",
         description: "Guidetti Informatica",
         language: "twemoji:flag-italy",
-        url: "https://www.guidetti-informatica.net/2023/03/invia-file-in-modo-sicuro-sulla-rete-locale-con-lapp-localsend-multipiattaforma/",
+        url: "https://www.guidetti-informatica.net/2023/03/invia-file-in-modo-sicuro-sulla-rete-locale-con-lapp-picguard-multipiattaforma/",
         bgClass: "bg-green-50/50 dark:bg-green-950/20",
     },
 ];

@@ -6,8 +6,8 @@
         <!-- Brand Column -->
         <div class="space-y-4">
           <div class="flex items-center gap-3">
-            <img src="~/assets/img/logo-512.png" alt="LocalSend" class="h-8 w-8" />
-            <span class="text-lg font-bold text-gray-900 dark:text-white">LocalSend</span>
+            <img src="~/assets/img/logo-512.png" alt="PicGuard" class="h-8 w-8" />
+            <span class="text-lg font-bold text-gray-900 dark:text-white">PicGuard</span>
           </div>
           <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-xs">
             {{ t("footer.description") }}
@@ -27,7 +27,7 @@
               </NuxtLink>
             </li>
             <li>
-              <a href="https://web.localsend.org" target="_blank"
+              <a href="https://web.picguard.org" target="_blank"
                 class="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
                 {{ t("footer.webapp") }}
               </a>
@@ -46,40 +46,40 @@
           <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider">{{ t("footer.community") }}</h3>
           <ul class="space-y-3 text-sm">
             <li>
-              <a href="https://github.com/localsend/localsend" target="_blank"
+              <a href="https://github.com/picguard/picguard" target="_blank"
                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
                 <Icon name="fa6-brands:github" class="text-base" />
                 {{ t("footer.github") }}
               </a>
             </li>
-            <li>
-              <a href="https://discord.gg/GSRWmQNP87" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:discord" class="text-base" />
-                {{ t("footer.discord") }}
-              </a>
-            </li>
-            <li>
-              <a href="https://reddit.com/r/localsend" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:reddit" class="text-base" />
-                {{ t("footer.reddit") }}
-              </a>
-            </li>
-            <li>
-              <a rel="me" href="https://mastodon.social/@localsend" target="_blank"
-                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-brands:mastodon" class="text-base" />
-                Mastodon
-              </a>
-            </li>
-            <li>
-              <a href="https://shop.localsend.org" target="_blank"
-                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                <Icon name="fa6-solid:shirt" class="text-base" />
-                {{ t("footer.merch") }}
-              </a>
-            </li>
+<!--            <li>-->
+<!--              <a href="https://discord.gg/GSRWmQNP87" target="_blank"-->
+<!--                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-brands:discord" class="text-base" />-->
+<!--                {{ t("footer.discord") }}-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="https://reddit.com/r/picguard" target="_blank"-->
+<!--                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-brands:reddit" class="text-base" />-->
+<!--                {{ t("footer.reddit") }}-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a rel="me" href="https://mastodon.social/@picguard" target="_blank"-->
+<!--                 class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-brands:mastodon" class="text-base" />-->
+<!--                Mastodon-->
+<!--              </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--              <a href="https://shop.picguard.org" target="_blank"-->
+<!--                class="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">-->
+<!--                <Icon name="fa6-solid:shirt" class="text-base" />-->
+<!--                {{ t("footer.merch") }}-->
+<!--              </a>-->
+<!--            </li>-->
           </ul>
         </div>
 

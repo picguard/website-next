@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Share files to nearby devices",
-      "description": "LocalSend is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
+      "title": "PicGuard: Share files to nearby devices",
+      "description": "PicGuard is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
     },
     "hero": {
       "badge": "All major platforms supported!",
@@ -23,14 +23,14 @@
     },
     "testimonials": {
       "title": "Loved by the Community",
-      "description": "Join thousands of users who trust LocalSend for their daily file transfers."
+      "description": "Join thousands of users who trust PicGuard for their daily file transfers."
     },
     "sponsors": {
       "title": "Supported By",
-      "description": "LocalSend is free and open source, made possible by our partners and community.",
+      "description": "PicGuard is free and open source, made possible by our partners and community.",
       "infrastructure": "Infrastructure Partner",
       "becomeSponsor": "Become a Sponsor",
-      "becomeSponsorDescription": "Love LocalSend? Support development and help keep the project alive."
+      "becomeSponsorDescription": "Love PicGuard? Support development and help keep the project alive."
     },
     "features": {
       "title": "Features",
@@ -39,9 +39,9 @@
       "decentralized": "Decentralized",
       "decentralizedDescription": "Share files without a central server. The file transfer is completely peer-to-peer.",
       "crossPlatform": "Cross-platform",
-      "crossPlatformDescription": "LocalSend is available for Windows, macOS, Linux, Android, and iOS.",
+      "crossPlatformDescription": "PicGuard is available for Windows, macOS, Linux, Android, and iOS.",
       "free": "Free",
-      "freeDescription": "LocalSend is free to use. No ads, no tracking, no hidden costs.",
+      "freeDescription": "PicGuard is free to use. No ads, no tracking, no hidden costs.",
       "openSource": "Open Source",
       "openSourceDescription": "The source code is publicly available. Everyone can contribute to the project.",
       "secure": "Secure",
@@ -55,39 +55,39 @@
     },
     "press": {
       "title": "In the News",
-      "description": "See what tech publications are saying about LocalSend.",
+      "description": "See what tech publications are saying about PicGuard.",
       "label": "Press",
       "readArticle": "Read Article"
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Everything you need to know about LocalSend.",
+      "description": "Everything you need to know about PicGuard.",
       "q1": "Is it really free?",
-      "a1": "Yes, LocalSend is 100% free and open source. There are no ads, no tracking, and no hidden costs.",
+      "a1": "Yes, PicGuard is 100% free and open source. There are no ads, no tracking, and no hidden costs.",
       "q2": "Does it work over the internet?",
-      "a2": "No. LocalSend uses your local WiFi network to transfer files. Your data never leaves your local network.",
+      "a2": "No. PicGuard uses your local WiFi network to transfer files. Your data never leaves your local network.",
       "q3": "Is it secure?",
       "a3": "Yes. All transfers are encrypted using HTTPS. You can also enable PIN verification for extra security.",
       "q4": "Where do files go?",
       "a4": "Files are saved to your device's Downloads folder by default, but you can change this in the settings.",
       "q5": "Which platforms are supported?",
-      "a5": "LocalSend is available for Windows, macOS, Linux, Android, and iOS.",
+      "a5": "PicGuard is available for Windows, macOS, Linux, Android, and iOS.",
       "q6": "Do I need to create an account?",
-      "a6": "No. LocalSend does not require any account or login. Just install and start sharing."
+      "a6": "No. PicGuard does not require any account or login. Just install and start sharing."
     },
     "mentioned": "Mentioned across the globe",
-    "get": "Get LocalSend",
-    "video": "Watch a video presentation of LocalSend on YouTube"
+    "get": "Get PicGuard",
+    "video": "Watch a video presentation of PicGuard on YouTube"
   },
   "cta": {
     "title": "Ready to get started?",
-    "description": "Download LocalSend now and share files effortlessly across your devices.",
+    "description": "Download PicGuard now and share files effortlessly across your devices.",
     "download": "Download"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Downloads",
-      "description": "Download LocalSend for Windows, macOS, Linux, Android, and iOS."
+      "title": "PicGuard - Downloads",
+      "description": "Download PicGuard for Windows, macOS, Linux, Android, and iOS."
     },
     "title": "Downloads",
     "subTitle": "{os} Downloads",
@@ -108,8 +108,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Community",
-      "description": "Get help, get involved, and contribute to LocalSend."
+      "title": "PicGuard - Community",
+      "description": "Get help, get involved, and contribute to PicGuard."
     },
     "title": "Community",
     "getHelp": "Get Help",
@@ -125,12 +125,12 @@
     "pullRequests": "Pull Requests",
     "prDescription": "Ready to contribute code? Open a PR.",
     "contribute": "Contribute",
-    "contributeDescription": "Help us improve LocalSend.",
+    "contributeDescription": "Help us improve PicGuard.",
     "languageSpecific": "Join language-specific discussions."
   },
   "contact": {
     "seo": {
-      "title": "Contact - LocalSend",
+      "title": "Contact - PicGuard",
       "description": "Get in touch with the team or the community."
     },
     "title": "Contact Us",
@@ -167,8 +167,8 @@
   },
   "changelog": {
     "seo": {
-      "title": "LocalSend - Changelog",
-      "description": "Track every update, feature, and fix across all versions of LocalSend."
+      "title": "PicGuard - Changelog",
+      "description": "Track every update, feature, and fix across all versions of PicGuard."
     },
     "title": "Changelog",
     "description": "Track every update, feature, and fix across all versions.",
@@ -195,7 +195,7 @@
     "title": "How It Works",
     "description": "Zero configuration. Just install and start sharing.",
     "step1Title": "Install & Open",
-    "step1Desc": "Download LocalSend on all your devices. No account, no login, no servers.",
+    "step1Desc": "Download PicGuard on all your devices. No account, no login, no servers.",
     "step2Title": "Select Files",
     "step2Desc": "Choose photos, videos, documents, or text. Any file type is supported.",
     "step3Title": "Tap to Send",

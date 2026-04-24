@@ -5,10 +5,10 @@
             <!-- Logo & Brand -->
             <div class="flex items-center gap-8">
                 <NuxtLink :to="localePath({ path: '/' })" class="flex items-center gap-3 group">
-                    <img src="~/assets/img/logo-512.png" alt="LocalSend"
+                    <img src="~/assets/img/logo-512.png" alt="PicGuard"
                         class="h-8 w-8 transition-transform group-hover:scale-110" />
                     <span class="text-xl font-medium text-gray-900 dark:text-white hidden md:inline-block">
-                        LocalSend
+                        PicGuard
                     </span>
                 </NuxtLink>
 
@@ -29,7 +29,7 @@
                         {{ t("navigation.contacts") }}
                     </NuxtLink>
 
-                    <a href="https://github.com/localsend/localsend" target="_blank" rel="noopener noreferrer"
+                    <a href="https://github.com/picguard/picguard" target="_blank" rel="noopener noreferrer"
                         class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-1.5">
                         <Icon name="mdi:github" class="text-base" />
                         <span>GitHub</span>
@@ -88,7 +88,7 @@
                         {{ t("navigation.community") }}
                     </NuxtLink>
 
-                    <a href="https://github.com/localsend/localsend" target="_blank" rel="noopener noreferrer"
+                    <a href="https://github.com/picguard/picguard" target="_blank" rel="noopener noreferrer"
                         @click="isMobileMenuOpen = false"
                         class="flex items-center gap-3 px-3 py-2 text-base font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
                         <Icon name="mdi:github" class="text-xl" />

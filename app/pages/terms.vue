@@ -31,7 +31,7 @@
             <ul class="list-disc pl-6 space-y-3 text-gray-600 dark:text-gray-300">
               <li>
                 <strong>Application</strong> means the software program provided by the Company downloaded by You on any
-                electronic device, named LocalSend.
+                electronic device, named PicGuard.
               </li>
               <li>
                 <strong>Application Store</strong> means the digital distribution service operated and developed by
@@ -48,7 +48,7 @@
               </li>
               <li>
                 <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)
-                refers to LocalSend.
+                refers to PicGuard.
               </li>
               <li>
                 <strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or
@@ -290,8 +290,8 @@
           <h2 class="text-2xl font-semibold text-gray-900 dark:text-white tracking-tight">Contact Us</h2>
           <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
             If you have any questions about these Terms and Conditions, You can contact us by email:
-            <a href="mailto:support@localsend.org"
-              class="text-teal-600 dark:text-teal-400 hover:underline">support@localsend.org</a>
+            <a href="mailto:support@picguard.org"
+              class="text-teal-600 dark:text-teal-400 hover:underline">support@picguard.org</a>
           </p>
         </div>
 

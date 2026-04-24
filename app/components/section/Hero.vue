@@ -70,7 +70,7 @@
                     {{ t("home.download") }}
                 </UiButton>
 
-                <UiButton as="a" href="https://web.localsend.org" variant="secondary" size="lg"
+                <UiButton as="a" href="https://web.picguard.org" variant="secondary" size="lg"
                     icon="material-symbols:language">
                     {{ t("home.web") }}
                 </UiButton>
@@ -82,7 +82,7 @@
                 <!-- Desktop Image (Main) -->
                 <div
                     class="relative z-10 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-gray-900/50 p-2 shadow-2xl shadow-gray-200/50 dark:shadow-black/50 backdrop-blur-sm transform transition-transform hover:scale-[1.01] duration-500">
-                    <img :src="'/img/hero-image-desktop.webp'" alt="LocalSend Desktop"
+                    <img :src="'/img/hero-image-desktop.webp'" alt="PicGuard Desktop"
                         class="rounded-xl w-full border border-gray-100 dark:border-gray-800" />
                 </div>
 
@@ -93,7 +93,7 @@
                         class="relative rounded-[1rem] md:rounded-[2rem] border-[6px] md:border-8 border-gray-900 dark:border-gray-800 bg-gray-900 shadow-2xl overflow-hidden transform rotate-[-6deg] hover:rotate-0 transition-transform duration-500 hover:scale-105 hover:z-30 origin-bottom-right">
 
                         <!-- Screen Image -->
-                        <img :src="'/img/screenshot-phone-1.webp'" alt="LocalSend Mobile"
+                        <img :src="'/img/screenshot-phone-1.webp'" alt="PicGuard Mobile"
                             class="w-full h-auto rounded-[1rem] md:rounded-[1.5rem] border border-gray-800 opacity-90 bg-gray-800" />
                     </div>
                 </div>

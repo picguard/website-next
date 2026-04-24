@@ -22,7 +22,7 @@
           <h2 class="text-2xl font-semibold text-gray-900 dark:text-white tracking-tight">Personal Data Collection and
             Use</h2>
           <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            LocalSend is an open-source application, and we are dedicated to user privacy. In line with this, we confirm
+            PicGuard is an open-source application, and we are dedicated to user privacy. In line with this, we confirm
             that
             we do not collect, store, process, or use any personal data or non-personal data from you while you use our
             application.
@@ -40,7 +40,7 @@
         <div class="space-y-4">
           <h2 class="text-2xl font-semibold text-gray-900 dark:text-white tracking-tight">Security</h2>
           <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            As LocalSend does not collect any data, there are no concerns regarding the transmission or storage of data.
+            As PicGuard does not collect any data, there are no concerns regarding the transmission or storage of data.
             However, we still prioritize the security of our application and the trust you place in us by using it.
           </p>
         </div>
@@ -50,7 +50,7 @@
           <h2 class="text-2xl font-semibold text-gray-900 dark:text-white tracking-tight">Third-Party Data Collection
           </h2>
           <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            While LocalSend itself does not collect any personal or non-personal data, it is important to note that
+            While PicGuard itself does not collect any personal or non-personal data, it is important to note that
             users may
             still be subject to data collection by third parties such as operating systems (e.g. Android, iOS), device
             manufacturers, and other apps that have permissions to access device data. We have no control over and
@@ -78,8 +78,8 @@
           <h2 class="text-2xl font-semibold text-gray-900 dark:text-white tracking-tight">Contact Us</h2>
           <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
             If you have any questions about this Privacy Policy, do not hesitate to contact us by email:
-            <a href="mailto:support@localsend.org"
-              class="text-teal-600 dark:text-teal-400 hover:underline">support@localsend.org</a>
+            <a href="mailto:support@picguard.org"
+              class="text-teal-600 dark:text-teal-400 hover:underline">support@picguard.org</a>
           </p>
         </div>
 

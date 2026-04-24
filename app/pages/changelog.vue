@@ -35,7 +35,7 @@
       <div v-else-if="status === 'error' || !versions" class="text-center py-20">
         <Icon name="material-symbols:error-outline" class="text-4xl text-gray-400 mb-4 block mx-auto" />
         <p class="text-gray-500 mb-4">{{ t('changelog.errorLoading') }}</p>
-        <a href="https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md" target="_blank"
+        <a href="https://github.com/picguard/picguard/blob/main/CHANGELOG.md" target="_blank"
           class="inline-flex items-center gap-2 text-teal-600 hover:text-teal-500 text-sm font-medium transition-colors">
           <Icon name="mdi:github" />
           {{ t('changelog.viewOnGithub') }}
@@ -104,7 +104,7 @@
 
         <!-- GitHub link -->
         <div class="flex justify-center pt-10">
-          <a href="https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md" target="_blank"
+          <a href="https://github.com/picguard/picguard/blob/main/CHANGELOG.md" target="_blank"
             class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-200 dark:border-gray-800 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:border-gray-300 dark:hover:border-gray-700 transition-colors">
             <Icon name="mdi:github" class="text-lg" />
             {{ t('changelog.viewOnGithub') }}
@@ -129,7 +129,7 @@ const { t, locale } = useI18n();
 
 const { data: versions, status } = await useAsyncData('changelog', async () => {
   const raw = await $fetch<string>(
-    'https://raw.githubusercontent.com/localsend/localsend/main/app/assets/CHANGELOG.md',
+    'https://raw.githubusercontent.com/picguard/picguard/main/CHANGELOG.md',
     { responseType: 'text' },
   );
   return parseChangelog(raw);

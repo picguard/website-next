@@ -41,7 +41,7 @@
                 {{ t("cta.title") || "Ready to share?" }}
             </h2>
             <p class="text-xl text-gray-500 dark:text-gray-400 mb-10 max-w-xl mx-auto leading-relaxed">
-                {{ t("cta.description") || "Download LocalSend now and share files effortlessly across your devices." }}
+                {{ t("cta.description") || "Download PicGuard now and share files effortlessly across your devices." }}
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <UiButton :as="props.downloadUrl ? 'a' : 'NuxtLink'"

@@ -30,7 +30,7 @@
         </a>
 
         <!-- Reddit Card -->
-        <a href="https://reddit.com/r/localsend" target="_blank"
+        <a href="https://reddit.com/r/picguard" target="_blank"
           class="group relative overflow-hidden rounded-xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 p-6 transition-all duration-200 hover:border-gray-300 dark:hover:border-gray-700 hover:shadow-sm">
           <div class="flex items-start gap-4">
             <div class="shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#FF4500]/10 text-[#FF4500]">
@@ -59,7 +59,7 @@
       spacing="lg">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <!-- Issues -->
-        <a href="https://github.com/localsend/localsend/issues" target="_blank"
+        <a href="https://github.com/picguard/picguard/issues" target="_blank"
           class="group block p-6 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-900/50 hover:bg-white dark:hover:bg-gray-900 transition-all duration-200">
           <div class="flex items-center gap-3 mb-2">
             <Icon name="material-symbols:bug-report"
@@ -70,7 +70,7 @@
         </a>
 
         <!-- PRs -->
-        <a href="https://github.com/localsend/localsend/pulls" target="_blank"
+        <a href="https://github.com/picguard/picguard/pulls" target="_blank"
           class="group block p-6 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-900/50 hover:bg-white dark:hover:bg-gray-900 transition-all duration-200">
           <div class="flex items-center gap-3 mb-2">
             <Icon name="material-symbols:merge"
@@ -114,35 +114,35 @@ interface HelpButton {
 const helpButtons: HelpButton[] = [
   {
     name: 'English',
-    url: 'https://github.com/localsend/localsend/discussions/categories/discussion-english-international',
+    url: 'https://github.com/picguard/picguard/discussions/categories/discussion-english-international',
   },
   {
     name: 'Deutsch',
-    url: 'https://github.com/localsend/localsend/discussions/categories/l-deutsch',
+    url: 'https://github.com/picguard/picguard/discussions/categories/l-deutsch',
   },
   {
     name: 'Español',
-    url: 'https://github.com/localsend/localsend/discussions/categories/l-espa%C3%B1ol',
+    url: 'https://github.com/picguard/picguard/discussions/categories/l-espa%C3%B1ol',
   },
   {
     name: 'Français',
-    url: 'https://github.com/localsend/localsend/discussions/categories/l-fran%C3%A7ais',
+    url: 'https://github.com/picguard/picguard/discussions/categories/l-fran%C3%A7ais',
   },
   {
     name: 'Italiano',
-    url: 'https://github.com/localsend/localsend/discussions/categories/l-italiano',
+    url: 'https://github.com/picguard/picguard/discussions/categories/l-italiano',
   },
   {
     name: 'Русский',
-    url: 'https://github.com/localsend/localsend/discussions/categories/l-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9',
+    url: 'https://github.com/picguard/picguard/discussions/categories/l-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9',
   },
   {
     name: '日本語',
-    url: 'https://github.com/localsend/localsend/discussions/categories/l-%E6%97%A5%E6%9C%AC%E8%AA%9E',
+    url: 'https://github.com/picguard/picguard/discussions/categories/l-%E6%97%A5%E6%9C%AC%E8%AA%9E',
   },
   {
     name: '简体中文',
-    url: 'https://github.com/localsend/localsend/discussions/categories/l-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87',
+    url: 'https://github.com/picguard/picguard/discussions/categories/l-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87',
   },
 ];
 </script>

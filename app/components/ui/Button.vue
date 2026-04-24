@@ -1,6 +1,5 @@
 <template>
-  <component :is="computedComponent" v-bind="computedProps" :disabled="disabled" :class="buttonClasses"
-    @click="handleClick">
+  <component :is="computedComponent" v-bind="computedProps" :disabled="disabled" :class="buttonClasses">
 
     <!-- Inner shadow for depth (Solid variants only) -->
     <div v-if="isSolidVariant"

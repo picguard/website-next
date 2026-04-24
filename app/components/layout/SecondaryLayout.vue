@@ -7,12 +7,12 @@
         <NuxtLink :to="localePath({ path: '/' })">
           <img
             src="~/assets/img/logo-512.png"
-            alt="LocalSend Logo"
+            alt="PicGuard Logo"
             style="height: 200px"
           />
         </NuxtLink>
 
-        <h1 class="text-5xl font-black dark:text-white">LocalSend</h1>
+        <h1 class="text-5xl font-black dark:text-white">PicGuard</h1>
         <h2 class="text-2xl font-light dark:text-white">
           {{ props.subTitle }}
         </h2>
@@ -46,7 +46,7 @@
 
     <div class="text-center dark:text-gray-300">
       <TextButton
-        href="https://github.com/localsend/website"
+        href="https://github.com/picguard/website"
         target="_blank"
         icon="material-symbols:build"
         class="mb-8"

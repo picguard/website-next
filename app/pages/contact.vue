@@ -16,7 +16,7 @@
           <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
             {{ t('contact.bugReportDescription') }}
           </p>
-          <UiButton as="a" href="https://github.com/localsend/localsend/issues" target="_blank" variant="secondary"
+          <UiButton as="a" href="https://github.com/picguard/picguard/issues" target="_blank" variant="secondary"
             full-width icon="fa6-brands:github">
             {{ t('contact.openIssues') }}
           </UiButton>
@@ -32,9 +32,9 @@
           <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
             {{ t('contact.emailDescription') }}
           </p>
-          <UiButton as="a" href="mailto:support@localsend.org" variant="secondary" full-width
+          <UiButton as="a" href="mailto:support@picguard.org" variant="secondary" full-width
             icon="material-symbols:send">
-            support@localsend.org
+            support@picguard.org
           </UiButton>
         </div>
       </div>

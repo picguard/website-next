@@ -67,7 +67,7 @@ const reviews = computed(() => [
         author: "ss"
     },
     {
-        text: "Thank god for this app!! All my devices use different operating systems which is very annoying. LocalSend worked instantly, even on my fussy Linux pc! Thank you so much!",
+        text: "Thank god for this app!! All my devices use different operating systems which is very annoying. PicGuard worked instantly, even on my fussy Linux pc! Thank you so much!",
         author: "Casey"
     },
     {
@@ -95,7 +95,7 @@ const reviews = computed(() => [
         author: "Elias Jackson"
     },
     {
-        text: "LocalSend rules!",
+        text: "PicGuard rules!",
         author: "Johnny"
     },
     {
@@ -103,7 +103,7 @@ const reviews = computed(() => [
         author: "Imran"
     },
     {
-        text: "LocalSend is fantastic. Thank you!",
+        text: "PicGuard is fantastic. Thank you!",
         author: "Giorgio"
     }
 ]);

@@ -114,7 +114,7 @@
                 </a>
               </div>
 
-              <a href="https://github.com/localsend/localsend/releases" target="_blank"
+              <a href="https://github.com/picguard/picguard/releases" target="_blank"
                 class="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-teal-600 transition-colors mt-2">
                 <Icon name="material-symbols:history" />
                 {{ t("download.allReleases") }}
@@ -183,7 +183,7 @@
               </div>
 
               <div class="relative z-10 bg-white p-4 rounded-2xl shadow-xl shadow-gray-200/50 dark:shadow-none mb-8">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://localsend.org/download"
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://picguard.org/download"
                   alt="QR Code" class="w-48 h-48" />
               </div>
 
@@ -268,7 +268,7 @@ interface Download {
   packageManagers: PackageManager[];
 }
 
-const appleStoreUrl = "https://apps.apple.com/us/app/localsend/id1661733229";
+const appleStoreUrl = "https://apps.apple.com/us/app/picguard/id1661733229";
 const appleStore = `<a href="${appleStoreUrl}">
     <img alt="Download on the App Store" src="${new URL("~/assets/img/badges/apple-store-badge.svg", import.meta.url).href
   }" style="height: 52px">
@@ -278,19 +278,19 @@ const nix = {
   name: "Nix",
   commands: [
     "# Edit /etc/nixos/configuration.nix",
-    "programs.localsend.enable = true;",
+    "programs.picguard.enable = true;",
     "# Then run",
     "sudo nixos-rebuild switch"
   ],
 };
 
 const assetsMap: Ref<{ [key: string]: string }> = ref({});
-const fallbackUrl = "https://github.com/localsend/localsend/releases";
+const fallbackUrl = "https://github.com/picguard/picguard/releases";
 
 function applyLocaleUrl(url: string): string {
   if (locale.value === 'zh-CN') {
     const fileName = url.split('/').pop();
-    return `https://d.localsend.org/${fileName}`;
+    return `https://d.picguard.org/${fileName}`;
   }
   return url;
 }
@@ -338,15 +338,15 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       packageManagers: [
         {
           name: "Winget",
-          commands: ["winget install localsend"],
+          commands: ["winget install picguard"],
         },
         {
           name: "Chocolatey",
-          commands: ["choco install localsend"],
+          commands: ["choco install picguard"],
         },
         {
           name: "Scoop",
-          commands: ["scoop bucket add extras", "scoop install localsend"],
+          commands: ["scoop bucket add extras", "scoop install picguard"],
         },
       ],
     },
@@ -361,7 +361,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
       packageManagers: [
         {
           name: "Homebrew",
-          commands: ["brew install --cask localsend"],
+          commands: ["brew install --cask picguard"],
         },
       ],
     },
@@ -385,24 +385,24 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
         {
           name: "Flathub",
           commands: [
-            "flatpak install flathub org.localsend.localsend_app",
-            "flatpak run org.localsend.localsend_app",
+            "flatpak install flathub org.picguard.picguard",
+            "flatpak run org.picguard.picguard",
           ],
         },
         nix,
         {
           name: "Snap",
-          commands: ["sudo snap install localsend"],
+          commands: ["sudo snap install picguard"],
         },
         {
           name: "AUR",
-          commands: ["yay -S localsend-bin"],
+          commands: ["yay -S picguard-bin"],
         },
       ],
     },
     [OS.android]: {
       stores: [
-        `<a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+        `<a href='https://play.google.com/store/apps/details?id=org.picguard.picguard&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
           <img alt='Get it on Google Play'
                src="${new URL(
           "~/assets/img/badges/google-play-badge.svg",
@@ -412,7 +412,7 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
                style="height: 52px"
           />
         </a>`,
-        `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
+        `<a href="https://f-droid.org/packages/org.picguard.picguard">
           <img alt="Get it on F-Droid" src="${new URL("~/assets/img/badges/f-droid-badge.svg", import.meta.url)
           .href
         }" style="height: 52px">

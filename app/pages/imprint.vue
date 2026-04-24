@@ -37,8 +37,8 @@
             <div class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed space-y-2">
               <p>
                 <span class="font-medium text-gray-900 dark:text-white">E-Mail:</span>
-                <a href="mailto:support@localsend.org"
-                  class="ml-2 text-teal-600 dark:text-teal-400 hover:underline">support@localsend.org</a>
+                <a href="mailto:support@picguard.org"
+                  class="ml-2 text-teal-600 dark:text-teal-400 hover:underline">support@picguard.org</a>
               </p>
               <p>
                 <span class="font-medium text-gray-900 dark:text-white">Web:</span>
