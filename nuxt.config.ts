@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/sitemap',
     '@nuxtjs/tailwindcss',
-    'nitro-cloudflare-dev'
   ],
 
   app: {
@@ -38,7 +37,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: "cloudflare_module",
+    preset: import.meta.env.CI ? 'cloudflare-module' : undefined,
 
     cloudflare: {
       deployConfig: true,
